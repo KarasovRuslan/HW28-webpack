@@ -8,11 +8,7 @@ module.exports = {
     filename: 'main.js'
   },
   plugins: [
-    new HtmlWebpackPlugin({
-      title: 'HW28-Webpack',
-      template: path.resolve(__dirname, './src/index.html'), 
-      filename: 'index.html', 
-    }),
+    new HtmlWebpackPlugin()  
   ],
   devServer:{
     static: {
